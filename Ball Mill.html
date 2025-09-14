@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AlphaMac Pharma Machinery</title>
+<link rel="stylesheet" href="css/templatestyle1.css">
+<script type="text/javascript" src="./js/script.js"></script>  
+</head>
+<body>
+<div class="title">Welcome to AlphaMac Pharma Machinery</div>
+<div class="line" id="myHeader">
+  <logo><img src="image/logo.jpg" alt="Alpha Pharma Equipment logo"/></logo>
+  <div class="line-right">
+	         <div class="button">
+			  <button><a href="/home.html?#Home"><b>Home</b></a></button>
+	          <button><a href="/home.html?#About"><b>About Us</a></b></button>
+	          <button><a href="/home.html?#Product"><b>Product</a></b></button>
+	          <button><a href="/home.html?#Contact"><b>Contact</a></b></button>
+	         </div>
+	     </div>
+</div>
+<h3 style="margin-left:50px;">Application & Process:</h3>
+<p class="para">The AlphaMac scale Ball Mill for small batch size production or R&D purpose. It is mainly used for various type of dry or wet grindable materials.
+Ball Mill is a principle and cylindrical revolving device and belongs to external gear driving ball mill. The materials are gets in to the chamber through charging and discharging door and there are balls in the chamber. When the cylinder body goes round and round the ball mill is taken to certain height then falls down and the materials are struck and grinded heavily. The above action repeats constantly till the size of material reaches the required fineness. The powder materials are discharged through discharge grate plate and the milling work is over.
+</p>
+<h3 style="margin-left:50px;">Technical Specification:</h3>
+<table id="techinfo">
+<tr>
+<th>MODEL</th>
+<th>ABM-1</th>
+</tr>
+<tr>
+<td>Capacity</td>
+<td>1 kg</td>
+</tr>
+<tr>
+<td>Drum Diameter</td>
+<td>90 mm</td>
+</tr>
+<tr>
+<td>Drum RPM</td>
+<td>1 to 5 by VFD</td>
+</tr>
+<tr>
+<td>Electric Power Supply</td>
+<td>1.5 kW / 3 Phase / AC</td>
+</tr>
+</table>
+<p class="para">Note: Electrical Power Supply Voltage & Frequency can be adjusted as per customer's requirement.</p>
+
+
+
+<script>
+
+window.onscroll = function() {scrolllock()};
+
+var line = document.getElementById('myHeader');
+var line1 = line.offsetTop;
+
+function scrolllock() {
+  if (window.pageYOffset > line1) {
+    line.classList.add("lock");
+  } else {
+    line.classList.remove("lock");
+  }
+}
+
+</script>
+</body>
+</html>

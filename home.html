@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AlphaMac Pharma Machinery</title>
+<link rel="stylesheet" href="css/templatestyle.css" />
+<script type="text/javascript" src="js/script.js"></script> 
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+</head>
+<style>
+
+@media only screen and (max-width: 400px) {
+    .row{
+  display: grid;
+  grid-template-columns: auto ;
+  background-color: #f1f1f1;
+  padding: 20px;}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    .row{
+  display: grid;
+  grid-template-columns: auto auto ;
+  background-color: #f1f1f1;
+  padding: 20px;}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    .row{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  background-color: #f1f1f1;
+  padding: 20px;}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 750px) {
+    .row{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #f1f1f1;
+  padding: 20px;}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
+    .row{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #f1f1f1;
+  padding: 20px;}
+}
+
+</style>
+<body>
+<div class="title" id="Home">Welcome to AlphaMac Pharma Machinery</div>
+
+
+<nav class="navbar navbar-expand-md" style = "background-color: #100e33">
+  <div class="container-fluid" style = "background-color: #100e33">
+    <div class="navbar-header">
+      <logo><img src="image/logo.jpg" alt="Alpha Pharma Equipment logo"/></logo>
+    </div>
+	 <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar" >
+    <ul class=" navbar-nav" >
+      <li class="nav-item"><a class="nav-link" href="#Home"><b>Home</b></a></li>
+      <li class="nav-item"><a class="nav-link" href="#About"><b>About Us</b></a></li>
+      <li class="nav-item"><a class="nav-link" href="#Product"><b>Product</b></a></li>
+      <li class="nav-item"> <a class="nav-link" href="#Contact"><b>Contact</b></a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<div class = "line">
+<div class="pictureplace">
+	       <div class = "picture fade">
+	             <div class= "numbertext">1 / 4</div>
+	        	 <img src="image/LAB_High_Shear_Mixer_Granulator1.jpg" class="img-thumbnail">
+	        	 <div class="caption" >Laboratory Scale Machine</div>
+	        </div>
+	        <div class = "picture fade">
+	             <div class= "numbertext">2 / 4</div>
+		         <img src="image/Lab_Multi_Mill1.jpg" class="img-thumbnail">
+		         <div class="caption">Laboratory Scale Machine</div>
+	        </div>
+	        <div class = "picture fade">
+	             <div class= "numbertext">3 / 4</div>
+	             <img src="image/Lab_Blender1.jpg" class="img-thumbnail">
+	             <div class="caption">Laboratory Scale Machine</div>
+	        </div>
+			<div class = "picture fade">
+	             <div class= "numbertext">4 / 4</div>
+	             <img src="image/Lab_Mill1.jpg" class="img-thumbnail">
+	             <div class="caption" >Laboratory Scale Machine</div>
+	        </div>
+</div>
+ <br>
+<div style="text-align:center" id="About">
+       <span class="dot" onclick="currentSlide(1)"></span> 
+       <span class="dot" onclick="currentSlide(2)"></span> 
+       <span class="dot" onclick="currentSlide(3)"></span> 
+	   <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+</div>
+
+<div class = "container">
+<p class= "header"><B>ABOUT US</b></p>
+<p class= "para">
+AlphaMac Pharma Machinery founded in 2020 and has been manufacturing Process equipment for Pharmaceuticals for production, pilot & lab scale.
+The AlphaMac Pharma Machinery is having wide range for process equipments. The company is known for innovative manufacturer for processing system for drying, granulating, mixing, milling, size reducing, blending, tabletting,<span id="dots">...</span><span id="more"> coating, pelletizing, pellet coating, stirring, homogenizing, Vacuumised mixing, filtration, evaporation, containment, material conveying, cleaning and fermentation as well as process integration and process automation service. AlphaMac focuses on specialized mechanical engineering, especially process engineering and equipment along with automation engineering.
+We sincerely would like express our thanks to our customers for supporting and affection.</span>
+<button onclick="expand()" class="readmore" id="myBtn">Read More</button></p>
+
+<p class= "header"><B>KNOW US</b></p>
+<h3 style="margin-left:50px;">
+Mr. Manoj Bhalodia - Proprietor</h3> 
+<p class= "para">Mr. Manoj Bhalodia is a technocrat with total experience of 30 years. He has been associated with M/s. Cadmach Machinery Pvt. Ltd in Design Department for 10 years. Also associated with M/s. Chamunda Pharma Machinery Co. Pvt Ltd., in their Design Department for 5 years & he has worked in Prism Pharma Machinery for 15 years as Design Manager.
+</p>
+<p class= "header" id="Product"><B>PRODUCT</b></p>
+
+<hr class="mt-20 mb-5">
+
+<div class="row" style="empty-cells: hide">
+  <div class="column">
+    <img src="image/Mixer Granulator.jpg" alt="1" >
+	<a class = "showcase" href="/Mixer Granulator.html">Lab RMG</a>
+  </div>
+  <div class="column">
+    <img src="image/Mass Mixer.jpg" alt="1" >
+	<a class = "showcase" href="/Mass Mixer.html">Lab Mass Mixer</a>
+  </div>
+  <div class="column">
+    <img src="image/Fluid Bed Dryer.jpg" alt="1" >
+	<a class = "showcase" href="/Fluid Bed Dryer.html">Lab Fluid Bed Dryer</a>
+  </div>
+  <div class="column">
+    <img src="image/Fluid Bed Equipment.jpg" alt="1" >
+	<a class = "showcase" href="/Fluid Bed Equipment.html">Lab Fluid Bed Equipment</a>
+  </div>
+  <div class="column">
+    <img src="image/Tray Dryer.jpg" alt="1" >
+	<a class = "showcase" href="/Tray Dryer.html">Lab Tray Dryer</a>
+  </div>
+  <div class="column">
+    <img src="image/AlphaMac Mill.jpg" alt="1" >
+	<a class = "showcase" href="/AlphaMac Mill.html">Lab AlphaMac Mill</a>
+  </div>
+  <div class="column">
+    <img src="image/Cone Mill.jpg" alt="1" >
+	<a class = "showcase" href="/Cone Mill.html">Lab Cone Mill</a>
+  </div>
+  <div class="column">
+    <img src="image/Oscillating Granulator.jpg" alt="1" >
+	<a class = "showcase" href="/Oscillating Granulator.html">Lab OG-50</a>
+  </div>
+  <div class="column">
+    <img src="image/Vibro Shifter.jpg" alt="1" >
+	<a class = "showcase" href="/Vibro Shifter.html">Lab Vibro Shifter-12"</a>
+  </div>
+  <div class="column">
+    <img src="image/Ultra Mixer.jpg" alt="1" >
+	<a class = "showcase" href="/Ultra Mixer.html">Lab Ultra Mixer</a>
+  </div>
+  <div class="column">
+    <img src="image/Tablet Press.jpg" alt="1" >
+	<a class = "showcase" href="/Tablet Press.html">Lab Tablet Press</a>
+  </div>
+  <div class="column">
+    <img src="image/Auto Coater.jpg" alt="1" >
+	<a class = "showcase" href="/Auto Coater.html">Lab Automatic Tablet Coater</a>
+  </div>
+  <div class="column">
+    <img src="image/Coating Machine.jpg" alt="1" >
+	<a class = "showcase" href="/Coating Machine.html">Lab Conventional Coating</a>
+  </div>
+  <div class="column">
+    <img src="image/Colloid Mill.jpg" alt="1" >
+	<a class = "showcase" href="/Colloid Mill.html">Lab Colloid Mill</a>
+  </div>
+  <div class="column">
+    <img src="image/Triple Roller Mill.jpg" alt="1" >
+	<a class = "showcase" href="/Triple Roller Mill.html">Lab Triple Roller Mill</a>
+  </div>
+  <div class="column">
+    <img src="image/Lab Stirrer.jpg" alt="1" >
+	<a class = "showcase" href="/Lab Stirrer.html">Lab Stirrer</a>
+  </div>
+  <div class="column">
+    <img src="image/Ball Mill.jpg" alt="1" >
+	<a class = "showcase" href="/Ball Mill.html">Lab Ball Mill</a>
+  </div>
+  <div class="column">
+    <img src="image/Lab Extruder.jpg" alt="1" >
+	<a class = "showcase" href="/Lab Extruder.html">Lab Extruder</a>
+  </div>
+  <div class="column">
+    <img src="image/All Shape Blender.jpg" alt="1" >
+	<a class = "showcase" href="/All Shape Blender.html">Lab All Shape Blender</a>
+  </div>
+  <div class="column">
+    <img src="image/Roller Compactor.jpg" alt="1" >
+	<a class = "showcase" href="/Roller Compactor.html">Lab Roller Compactor</a>
+  </div>
+  <div class="column">
+    <img src="image/Sigma Mixer.jpg" alt="1" >
+	<a class = "showcase" href="/Sigma Mixer.html">Lab Sigma Mixer</a>
+  </div>
+  <div class="column">
+    <img src="image/Spherodizer.jpg" alt="1" >
+	<a class = "showcase" href="/Spherodizer.html">Lab Spherodizer</a>
+  </div>
+  <div class="column">
+    <img src="image/Vacuum Tray Dryer.jpg" alt="1" >
+	<a class = "showcase" href="/Vacuum Tray Dryer.html">Lab Vacuum Tray Dryer</a>
+  </div>
+  <div class="column">
+    <img src="image/Cone Mill.jpg" alt="1" >
+	<a class = "showcase" href="/Multi Mill.html">Lab Multi Mill</a>
+  </div>
+</div>
+
+<br>
+<p class= "header" id = "Contact"><B>CONTACT US</b></p>
+<h3 style="margin-left:50px;">Factory Office:</h3>
+<p class="para">Vatva, Ahmedabad - 382445, Gujarat, India</p>
+<h3 style="margin-left:50px;">Registered Office:</h3>
+<p class="para">88, Krishnapark, Vastral</p>
+<p class="para">Ahmedabad-382418, Gujarat, India</p>
+<p class="para">Cell Phone: 7802934487</p>
+<p class="para">Email Id: <a class="mail" href="mailto:mkt@alphamacpharmamachinery.com?"><b>mkt@alphamacpharmamachinery.com</b></a></p>
+</div>
+
+<script>
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("picture");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2500); // Change image every 2 seconds
+}
+
+
+window.onscroll = function() {scrolllock()};
+
+var line = document.getElementById('myHeader');
+var line1 = line.offsetTop;
+
+function scrolllock() {
+  if (window.pageYOffset > line1) {
+    line.classList.add("lock");
+  } else {
+    line.classList.remove("lock");
+  }
+}
+
+</script>
+
+</body>
+</html>

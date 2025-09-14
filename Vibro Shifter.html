@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AlphaMac Pharma Machinery</title>
+<link rel="stylesheet" href="css/templatestyle1.css">
+<script type="text/javascript" src="./js/script.js"></script>  
+</head>
+<body>
+<div class="title">Welcome to AlphaMac Pharma Machinery</div>
+<div class="line" id="myHeader">
+  <logo><img src="image/logo.jpg" alt="Alpha Pharma Equipment logo"/></logo>
+  <div class="line-right">
+	         <div class="button">
+			  <button><a href="/home.html?#Home"><b>Home</b></a></button>
+	          <button><a href="/home.html?#About"><b>About Us</a></b></button>
+	          <button><a href="/home.html?#Product"><b>Product</a></b></button>
+	          <button><a href="/home.html?#Contact"><b>Contact</a></b></button>
+	         </div>
+	     </div>
+</div>
+<h3 style="margin-left:50px;">Application & Process:</h3>
+<p class="para">The AlphaMac Laboratory Scale Vibro Sifter due to its high capacity and compact size, is suitable for processing small batch of pharmaceutical materials and in research of pharmacy colleges, research and development laboratories.
+
+The machine is embedded with complete S.S. Fabrication structure fitted with special Vibro motor and 12” Sieve of 30 meshes movable on 3 Nos wheel for easy movability. 
+It is designed on the principle of ‘Gyratory Motion”. The material is fed on to the centre of the screen and then travels on a spiral path to the periphery whilst the fine particles fall through. The material being screened is therefore drawn apart automatically and no additional force is exerted to separate coarser particles. The sieving is done gently and with little abrasion.
+</p>
+<h3 style="margin-left:50px;">Technical Specification:</h3>
+<table id="techinfo">
+<tr>
+<th>MODEL</th>
+<th>AVS-12</th>
+</tr>
+<tr>
+<td>Output kg / hour</td>
+<td>1 to 10 kg/hr Depends on sieve and product</td>
+</tr>
+<tr>
+<td>Screen Diameter</td>
+<td>300 mm</td>
+</tr>
+<tr>
+<td>Electric Motor</td>
+<td>0.25 Hp </td>
+</tr>
+<tr>
+<td>Charging height</td>
+<td>1130 max. approx</td>
+</tr>
+<tr>
+<td>Discharging height</td>
+<td>850 max approx.</td>
+</tr>
+<tr>
+<td>Electric Power Supply</td>
+<td>0.18 kW / 3 Phase / AC</td>
+</tr>
+</table>
+<p class="para">Note: Electrical Power Supply Voltage & Frequency can be adjusted as per customer's requirement.</p>
+
+
+<script>
+
+window.onscroll = function() {scrolllock()};
+
+var line = document.getElementById('myHeader');
+var line1 = line.offsetTop;
+
+function scrolllock() {
+  if (window.pageYOffset > line1) {
+    line.classList.add("lock");
+  } else {
+    line.classList.remove("lock");
+  }
+}
+
+</script>
+</body>
+</html>
